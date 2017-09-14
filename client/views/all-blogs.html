@@ -1,0 +1,9 @@
+<section>
+  <article ng-repeat="r in blogs.slice().reverse()">
+    <header>
+      <h2>{{r.date | date}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="">{{r.blogger.email}}</span></h2>
+     
+    </header>
+    <p style="font-family:fantasy">{{r.content}}<span><a href="#" style="font-size:15px;color:#2F4F4F;">Continue reading</a></span></p>
+  </article>
+</section>
